@@ -1,0 +1,217 @@
+/* Global Styles */
+body {
+    background-color: #212529;
+}
+
+h1 {
+    font-family: cinzel decorative;
+    color: #f8f9fa;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-content: center;
+    text-shadow: 2px 2px 5px #e3e3f2;
+}
+
+footer h2{
+    font-family: cinzel decorative;
+    font-size: 20px;
+    color: #a7a7c9;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+/* Navigation Bar */
+
+.topnav {
+    background: #495057;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: #a7a7c9;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #495057;
+}
+
+.topnav a:hover {
+    background-color: #22223b;
+}
+
+.topnav a.active{
+    background-color: #343a40;
+}
+
+
+/* Home Page */
+.homepage{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    
+}
+
+.bio {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#homeh1 {
+    font-family: cinzel decorative;
+    font-size: 300%;
+    color: #f8f9fa;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+#homeh2 {
+   font-family: poppins;
+   color: #6c757d; 
+   font-size: 100%;
+    text-align: center;
+}
+
+#homep {
+    color: #adb5bd;
+    text-align: center;
+}
+ 
+.contact-list li{
+    list-style-type: none;
+    font-family: poppins;
+    text-align: center;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.contact-list a{
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+
+.portraitjpg {
+    max-width: 100%;
+    min-width: 50%;
+}
+
+/* Resopnsive Styles */
+
+/* 800 x 600 */
+
+@media screen and (max-width: 800px) {
+    
+    h1 {
+        font-family: cinzel decorative;
+        color: #f8f9fa;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        align-content: center;
+    }
+    
+    #homeh1{
+        font-size: 150%;
+    }
+
+    #homeh2{
+        font-size: 50%;
+    }
+
+    #homep {
+        font-size: smaller;
+
+    }
+
+    footer h2{
+        font-size: 10px;
+    }
+
+    .contact-list a{
+        font-size: 10px;
+    }
+    
+}
+
+/* Mobile */
+@media screen and (max-width: 450px) {
+    .homepage{
+        display: block;
+        }
+    
+    .bio {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    h1 {
+        font-family: cinzel decorative;
+        color: #f8f9fa;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #homeh1{
+        font-size: 150%;
+    }
+
+    #homeh2{
+        font-size: 50%;
+        border-bottom: groove;
+        border-width: thin;
+        padding-bottom: 10%;
+    }
+
+    #homep {
+        font-size: smaller;
+        margin-top: 50px;
+
+    }
+
+    footer h2{
+        font-size: 10px;
+    }
+
+    .contact-list a{
+        font-size: 10px;
+    }
+
+    .topnav {
+        /* background: #495057; */
+        overflow: hidden;
+        position: relative;
+        height: fit-content;
+        padding-right: 15px;
+    }
+
+    .topnav a{
+        float: center;
+        color: #a7a7c9;
+        font-family: poppins;
+        text-decoration: none;
+        font-size: 15px;
+        background-color: #495057;
+        width: 100%;
+    }
+    
+}
